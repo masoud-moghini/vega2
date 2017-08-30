@@ -28,7 +28,7 @@ namespace vega2.Controllers{
                 new VehicleMakes
                     {
                         Make="AUD",
-                        VModels=new model[]{new model{name="x75"}}
+                        models=new model[]{new model{name="x75"}}
                     }
             );
             _models.SaveChanges();
