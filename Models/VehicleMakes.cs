@@ -4,6 +4,6 @@ namespace vega2.Models
     {
         public long id { get; set; }
         public string Make { get; set; }
-        public model[] Models { get; set; }
+        public virtual model[] VModels { get; set; }
     }
 }
